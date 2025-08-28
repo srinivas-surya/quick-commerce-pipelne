@@ -1,0 +1,31 @@
+mysql:
+  host: mysql
+  port: 3306
+  user: root
+  password: rootpass
+  database: quickcommerce
+
+mongo:
+  host: mongo
+  port: 27017
+  database: inventorydb
+  collection: products
+
+kafka:
+  bootstrap_servers: kafka:9092
+  gps_topic: gps_stream
+  status_topic: status_stream
+
+paths:
+  raw_dir: data/raw
+  staging_dir: data/staging
+  warehouse_dir: data/warehouse
+
+spark:
+  app_name: quickcommerce_spark
+  master: spark://spark-master:7077
+  kafka_bootstrap: kafka:9092
+
+warehouse:
+  type: parquet   # change to snowflake/redshift when ready
+  # snowflake/redshift configs would go here

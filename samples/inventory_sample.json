@@ -1,0 +1,4 @@
+[
+  {"item_id": 12, "name": "Fresh Apples", "category": "Fruits", "warehouse": "WH1", "stock_level": 120, "last_update": "2025-06-20T09:00:00Z"},
+  {"item_id": 18, "name": "Organic Milk", "category": "Dairy",  "warehouse": "WH2", "stock_level": 40,  "last_update": "2025-06-20T08:50:00Z"}
+]

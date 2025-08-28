@@ -1,0 +1,12 @@
+{
+  "dashboard": {
+    "title": "Quick Commerce Pipeline - Starter",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Placeholder - Job Success/Failure",
+        "targets": []
+      }
+    ]
+  }
+}

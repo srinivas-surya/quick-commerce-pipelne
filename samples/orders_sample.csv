@@ -1,0 +1,4 @@
+order_id,user_id,item_id,quantity,price,order_ts,status
+1001,501,12,2,119.99,2025-06-20 10:05:00,delivered
+1002,502,18,1,49.50,2025-06-20 10:12:00,dispatched
+1003,503,12,4,239.98,2025-06-20 10:50:00,cancelled
