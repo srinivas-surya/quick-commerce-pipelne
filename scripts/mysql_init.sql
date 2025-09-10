@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS orders (
   status VARCHAR(20)
 );
 
-LOAD DATA INFILE '/docker-entrypoint-initdb.d/orders_sample.csv'
+LOAD DATA INFILE '/samples/orders_sample.csv'
 INTO TABLE orders
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
